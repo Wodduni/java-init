@@ -28,5 +28,6 @@ public class StringCondition {
 		String s6 = null;
 		System.out.println(s6.equals("1"));
 		
+		String[] string = new String[3];
 	}
 }

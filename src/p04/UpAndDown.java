@@ -33,5 +33,7 @@ public class UpAndDown {
 			
 		}
 		System.out.println("맞췄다.");
+		
+		
 	}
 }

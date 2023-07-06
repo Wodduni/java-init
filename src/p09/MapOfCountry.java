@@ -45,7 +45,7 @@ public class MapOfCountry {
 		listMapOfCountry.add(mapOfCountry3);
 		listMapOfCountry.add(mapOfCountry4);
 		
-		for (Map<String, String> it : listMapOfCountry  ) {
+		for (Map<String, String> it : listMapOfCountry) {
 			System.out.println(it);
 			
 		}

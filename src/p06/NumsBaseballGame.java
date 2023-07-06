@@ -39,7 +39,7 @@ public class NumsBaseballGame {
 			System.out.println();
 			
 			int s = 0;
-			int b =0;
+			int b = 0;
 			
 			for (int i = 0; i < baseBallNums.length; i++) {
 				for (int j = 0; j < yourNums.length; j++) {

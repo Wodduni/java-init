@@ -8,14 +8,9 @@ import java.sql.Statement;
 
 public class SelectTest {
 	public static void main(String[] args) {
+	
 		try {
-			Class.forName("org.mariadb.jdbc.Driver");
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		}
-		
-		try {
-			Connection conection = DriverManager.getConnection("jdbc:mariadb://localhost:3307/kd", "root", "kd1824java");
+			Connection conection = DBCon.getCon();
 			String sql = "SELECT * FROM USER_INFO";
 			Statement statement = conection.createStatement();
 			ResultSet rSet = statement.executeQuery(sql);
